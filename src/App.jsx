@@ -6,7 +6,8 @@ import { useState, useEffect } from "react"
 import Caroussel from "./components/Caroussel"
 import vid from "./assets/vid1.mp4"
 import img3 from "./assets/images/web3.jpg"
-import img1 from "./assets/images/elect 4.jpg"
+import img11 from "./assets/images/web2.jpg"
+import img1 from "./assets/images/electronic1.jpg"
 import img2 from "./assets/images/electronic 2.jpg"
 import img4 from "./assets/images/tronics4.jpg"
 import img5 from "./assets/images/popular-2.jpg"
@@ -78,7 +79,7 @@ export default function App() {
         </div>
         <div className="bg-[#EEEDF3] p-4 rounded-lg shadow">
           <img
-            src={img3}
+            src={img11}
             alt="Mobile Apps"
             className="w-full h-60 object-cover rounded-lg transition-transform duration-300 ease-in-out hover:scale-105"
           />

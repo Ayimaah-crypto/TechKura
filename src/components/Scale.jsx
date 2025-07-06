@@ -8,13 +8,14 @@ import {
 export default function ScaleSection() {
   const features = [
     {
-      icon: <Building2 size={40} className="text-pink-500" />,
-      label: "Startup",
-      subtitle: "1 – 10 Employees",
-      title: "Infrastructure",
-      color: "border-pink-500",
-      hoverBg: "hover:bg-pink-100"
+      icon: <Rocket size={40} className="text-indigo-500" />,
+      label: "StartUp",
+      subtitle: " 1 – 10 Employees",
+      title: "Growth",
+      color: "border-indigo-500",
+      hoverBg: "hover:bg-indigo-100"
     },
+    
     {
       icon: <Users size={40} className="text-purple-600" />,
       label: "Small Business",
@@ -32,13 +33,14 @@ export default function ScaleSection() {
       hoverBg: "hover:bg-gray-100"
     },
     {
-      icon: <Rocket size={40} className="text-indigo-500" />,
+      icon: <Building2 size={40} className="text-pink-500" />,
       label: "Enterprise",
       subtitle: "251+ Employees",
-      title: "Growth",
-      color: "border-indigo-500",
-      hoverBg: "hover:bg-indigo-100"
-    }
+      title: "Infrastructure",
+      color: "border-pink-500",
+      hoverBg: "hover:bg-pink-100"
+    },
+    
   ];
 
   return (
