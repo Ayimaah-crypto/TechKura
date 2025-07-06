@@ -44,7 +44,7 @@ export default function App() {
   {/* Text and Images Section */}
   <div className="w-full md:w-1/2 flex flex-col gap-6">
     <p className="text-lg md:text-xl text-gray-700">
-      Teckura is dedicated to making tech work seamlessly for everyone. Whether it’s repairing electronic devices, connecting users with skilled electricians, or offering smart electronics solutions, we bring quality and reliability to your doorstep. Trust us to keep your digital and electrical world running smoothly.
+      Teckura is dedicated to making tech work seamlessly for everyone. Whether it’s building electronic devices, building amazing games, or creatimg amazing user authentic websites and mobile apps, we bring quality and reliability to your doorstep. Trust us to keep your digital and electronic world running smoothly.
     </p>
 
     {/* Images Section */}
