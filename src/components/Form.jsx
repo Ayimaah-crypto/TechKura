@@ -63,7 +63,7 @@ export default function ContactForm() {
             Let's connect. We'd love to hear from you!
           </p>
 
-          <form action="https://formspree.io/f/your_form_id" method="POST" className="space-y-4">
+          <form action="https://formspree.io/f/mzzgqvkw" method="POST" className="space-y-4">
             {/* Name */}
             <div>
               <label htmlFor="name" className="block text-sm text-gray-700 font-medium mb-1">
@@ -74,7 +74,7 @@ export default function ContactForm() {
                 name="name"
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
-                placeholder="Jane Doe"
+                placeholder="Theodora Asare"
               />
             </div>
 
@@ -88,7 +88,7 @@ export default function ContactForm() {
                 name="email"
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
-                placeholder="jane@techkura.com"
+                placeholder="theo@techkura.com"
               />
             </div>
 
