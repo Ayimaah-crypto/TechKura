@@ -18,6 +18,7 @@ import img9 from "./assets/images/asset 0.png"
 import img0 from "./assets/images/live-4.jpg"
 import Footer from "./components/Footer"
 import Scale from "./components/Scale"
+import Chatbox from "./components/Chatbox"
 import { Smile, CheckCircle, BadgeCheck, TrendingUp } from "lucide-react";
 
 export default function App() {
@@ -29,7 +30,9 @@ export default function App() {
       <div className="bg-[#F6F6F6]">
         <div>
           <Caroussel/>
+          <Chatbox/>
         </div>
+        
          <div className="bg-[#F6F6F6] px-4 py-10" id="aboutUs">
  <div className="bg-[#F6F6F6] px-4 py-10" id="aboutUs">
   <h1 className="text-4xl font-bold text-center mb-9">ABOUT US</h1>
