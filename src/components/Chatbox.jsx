@@ -41,7 +41,7 @@ export default function Chatbox() {
           {/* Messages */}
           <div className="flex-1 px-3 py-2 overflow-y-auto text-sm space-y-2 bg-gray-50">
             <div className="bg-gray-200 text-gray-700 px-3 py-2 rounded-xl w-fit max-w-[75%]">
-              Hello! How can we help you today?
+              Hello! How can we help you today?  Theodora is a always available to help. Is there a fancy Game you would like us to build for you?
             </div>
             {messages.map((msg, idx) => (
               <div
