@@ -18,6 +18,8 @@ import img9 from "./assets/images/asset 0.png"
 import img0 from "./assets/images/live-4.jpg"
 import Footer from "./components/Footer"
 import Scale from "./components/Scale"
+import { Smile, CheckCircle, BadgeCheck, TrendingUp } from "lucide-react";
+
 export default function App() {
      
 
@@ -29,28 +31,54 @@ export default function App() {
           <Caroussel/>
         </div>
          <div className="bg-[#F6F6F6] px-4 py-10" id="aboutUs">
- <h1 className="text-4xl font-bold text-center mb-9">ABOUT US</h1>
+ <div className="bg-[#F6F6F6] px-4 py-10" id="aboutUs">
+  <h1 className="text-4xl font-bold text-center mb-9">ABOUT US</h1>
 
-<div className="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-4 gap-10">
-  {/* Video Section */}
-  <video
-    src={vid}
-    loop
-    autoPlay
-    muted
-    className="w-full md:w-1/2 h-auto object-cover rounded-2xl"
-  />
+  <div className="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-4 gap-10">
+    {/* Video Section */}
+    <video
+      src={vid}
+      loop
+      autoPlay
+      muted
+      className="w-full md:w-1/2 h-auto object-cover rounded-2xl"
+    />
 
-  {/* Text and Images Section */}
-  <div className="w-full md:w-1/2 flex flex-col gap-6">
-    <p className="text-lg md:text-xl text-gray-700">
-      Teckura is dedicated to making tech work seamlessly for everyone. Whether it’s building electronic devices, building amazing games, or creatimg amazing user authentic websites and mobile apps, we bring quality and reliability to your doorstep. Trust us to keep your digital and electronic world running smoothly.
-    </p>
+    {/* Text and Images Section */}
+    <div className="w-full md:w-1/2 flex flex-col gap-6">
+      <p className="text-lg md:text-xl text-gray-700">
+        Teckura is dedicated to making tech work seamlessly for everyone. Whether it’s building electronic devices, building amazing games, or creating user-authentic websites and mobile apps, we bring quality and reliability to your doorstep. Trust us to keep your digital and electronic world running smoothly.
+      </p>
 
-    {/* Images Section */}
-    <div className="flex flex-col sm:flex-row items-center gap-6">
-      <img src={img8} alt="Service 1" className="w-32 sm:w-40 rounded-xl shadow-md" />
-      <img src={img9} alt="Service 2" className="w-32 sm:w-40 rounded-xl shadow-md" />
+      {/* Images Section */}
+      <div className="flex flex-col sm:flex-row items-center gap-6">
+        <img src={img8} alt="Service 1" className="w-32 sm:w-40 rounded-xl shadow-md" />
+        <img src={img9} alt="Service 2" className="w-32 sm:w-40 rounded-xl shadow-md" />
+      </div>
+    </div>
+  </div>
+
+  {/* Stats Section */}
+  <div className="max-w-6xl mx-auto mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4">
+    <div className="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+      <Smile className="text-purple-600 w-10 h-10 mb-3" />
+      <h3 className="text-2xl font-bold">120+</h3>
+      <p className="text-gray-600">Happy Clients</p>
+    </div>
+    <div className="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+      <CheckCircle className="text-green-600 w-10 h-10 mb-3" />
+      <h3 className="text-2xl font-bold">80+</h3>
+      <p className="text-gray-600">Projects Completed</p>
+    </div>
+    <div className="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+      <BadgeCheck className="text-blue-600 w-10 h-10 mb-3" />
+      <h3 className="text-2xl font-bold">5+</h3>
+      <p className="text-gray-600">Years Experience</p>
+    </div>
+    <div className="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+      <TrendingUp className="text-red-600 w-10 h-10 mb-3" />
+      <h3 className="text-2xl font-bold">98%</h3>
+      <p className="text-gray-600">Success Rate</p>
     </div>
   </div>
 </div>
